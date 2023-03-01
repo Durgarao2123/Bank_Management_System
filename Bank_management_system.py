@@ -98,7 +98,7 @@ while True:
                                                 h=h+1
                                                 print('YOUR BALANCE : ',acc_balance[r],'-/RS\n')
                                                 deposit=eval(input('DEPOSIT YOUR AMOUNT : '))
-                                                balance=acc_balance[r]
+                                                bance=acc_balance[r]
                                                 balance=balance+deposit
                                                 acc_balance[r]=balance
                                                 print('**** YOUR AMOUNT IS CREDITED SUCCESFULLY **** \n')
